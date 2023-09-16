@@ -1,0 +1,117 @@
+/* .App {
+  text-align: center;
+} */
+
+/* potential colors: cadetblue, lightblue, lightgreen, palegreen, skyblue,  */
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: palegreen;
+  /* color: darkslategrey; */
+}
+
+/* .react-hot-toast-container {
+  background-color: red;
+  z-index: 1000;
+} */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 4px green solid;
+  border-radius: 2em;
+  list-style: none;
+  padding:5px;
+  background-color: skyblue;
+  margin: 0% 1%;
+}
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+strong {
+  /* color: greenyellow; */
+  color: green;
+}
+
+i {
+  color: coral;
+}
+
+.spacing {
+  padding: 50px;
+  color: darkslategray;
+}
+
+/* label {
+  width: 30px;
+  display: inline-block;
+} */
+
+.inputBox {
+  background-color: lightcyan;
+  color: black;
+  caret-color: dodgerblue;
+  margin: 10px 10px 0px 0px;
+  padding: 5px;
+  text-size-adjust: larger;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  color: lightgray;
+  opacity: 80%;
+}
+
+a{
+  text-decoration: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit
+}
+a:hover {
+  color: orange;
+}
+
+.form {
+  /* align-items: center;
+  background-color: red;
+  align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+.warning {
+  color: red;
+}
+
+button{
+  background-color: green ;
+  border-radius: 2em;
+  border: solid darkgreen 4px;
+  padding: 4px 20px;
+  margin: 4px;
+  /* color: greenyellow; */
+  color: chartreuse;
+  opacity: 85%;
+  cursor: pointer;
+  /* background-color: transparent */
+}
+button:hover {
+  color: orange;
+}
+
+li {
+  background-color: transparent;
+}
+
+
+.deleteButton{
+  color: darkblue;
+  background-color: slategray;
+  border: double 2px red;
+}
